@@ -15,4 +15,4 @@ def fatorial(natural):
 nat1 = int(input("Informe um número natural: "))
 nat2 = int(input("Informe um número natural: "))
 
-print(f"A soma dos fatorais de {nat1} e {nat2} é {fatorial(nat1)+fatorial(nat2)})
+print(f"A soma dos fatorais de {nat1} e {nat2} é {fatorial(nat1)+fatorial(nat2)}")
