@@ -24,10 +24,11 @@ Função que soma dois valores e retorna o resultado.
 
 #Programa para soma quatro valores reais
 
+print("Mostra o menor de quatro valores reais: ")
 val_1 = float(input("Informe o primeiro valor a somar: "))
 val_2 = float(input("Informe o segundo valor a somar: "))
 val_3 = float(input("Informe o terceiro valor a somar: "))
 val_4 = float(input("Informe o quarto valor a somar: "))
 
 #print(f"Soma = {soma(val_1, soma(val_2, soma(val_3, val_4)))}")
-print(f "Menor = {menor_de_2(val_1, menor_de_2(val_2, menor_de_2(val_3, val_4)))}")
+print(f"Menor = {menor_de_2(val_1, menor_de_2(val_2, menor_de_2(val_3, val_4)))}")
